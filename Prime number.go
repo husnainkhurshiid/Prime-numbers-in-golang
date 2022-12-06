@@ -31,7 +31,7 @@ func CheckPrimeNumber(start, end int) {
 	}
 	fmt.Println()
 	fmt.Printf("Sum Of Numbers : %d \n", primeSum)
-	fmt.Printf("Total Numbers : %d \n", totalNumber)
+	fmt.Printf("Total Number : %d \n", totalNumber)
 }
 
 func main() {
