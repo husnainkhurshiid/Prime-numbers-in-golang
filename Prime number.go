@@ -36,7 +36,7 @@ func CheckPrimeNumber(start, end int) {
 
 func main() {
 	start := time.Now()
-	CheckPrimeNumber(2, 1000)
+	CheckPrimeNumber(1, 100000)
 	elapsed := time.Since(start)
 	fmt.Println()
 	fmt.Printf("Execution Time %s", elapsed)
